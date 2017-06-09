@@ -1,4 +1,4 @@
 FROM java:latest
 EXPOSE 8080
-CMD java -jar spring-boot-sample-app-master-0.0.1-SNAPSHOT.jar
-ADD build/libs/spring-boot-sample-app-master-0.0.1-SNAPSHOT.jar /
+CMD java -jar spring-boot-sample-app-0.0.1.jar
+ADD build/libs/spring-boot-sample-app-0.0.1.jar /
